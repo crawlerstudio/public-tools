@@ -32,7 +32,11 @@
 
   <xs:simpleType name="AgeType">
     <xs:restriction base="xs:int" >
+<<<<<<< HEAD
       <xs:minInclusive value="21"/>
+=======
+      <xs:minInclusive value="11"/>
+>>>>>>> 491ae0d22c76978cf8d8b426f5c6f746b24a1453
       <xs:maxInclusive value="90"/>
     </xs:restriction>
   </xs:simpleType>
